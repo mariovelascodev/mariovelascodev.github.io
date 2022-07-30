@@ -558,11 +558,12 @@ footer p a:hover {
     width: 14%;
   }
   main .about-me {
-    margin-top: 48em;
+    margin-top: 100rem;
     height: 84vh;
   }
   main .about-me .about-me__grid .about-me__picture img {
-    height: 43vh;
+    width: 81%;
+    height: 39vh;
     margin: 0 auto;
   }
   main .about-me .about-me__grid .about-me__box .about-me__button {
