@@ -274,7 +274,7 @@ main .project .project__grid .project__work .project__thumb a .project__descript
 main .project .btn-mostrar-mas {
   display: block;
   margin: 2rem auto;
-  width: 33%;
+  width: 38%;
   text-transform: uppercase;
 }
 main .project .btn-mostrar-mas i {
@@ -315,7 +315,7 @@ main .about-me .about-me__grid .about-me__picture img {
 main .contact {
   width: 100%;
   height: 75vh;
-  margin: 6rem auto;
+  margin: 12rem auto 6rem;
   scroll-margin-top: 53px;
 }
 main .contact .contact__header .contact__text {
@@ -337,6 +337,9 @@ main .contact .contact__rrss {
 }
 main .contact .contact__rrss a:hover {
   color: #20bf55;
+}
+main .contact .contact__rrss a:visited {
+  color: #f4f4f8;
 }
 
 /*GLOBAL*/
@@ -404,7 +407,7 @@ footer {
 }
 footer p {
   padding: 1.5rem;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 footer p a {
   margin: 0 0.5rem;
