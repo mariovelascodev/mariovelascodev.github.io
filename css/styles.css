@@ -1,0 +1,669 @@
+/*GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #091619;
+  color: #f4f4f8;
+  font-family: "Bitter", Georgia, serif;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+}
+
+strong {
+  color: #4985fe;
+}
+
+#logo {
+  display: none;
+}
+
+.btn {
+  background: #4985fe;
+  color: #f4f4f8;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+.btn:hover {
+  background-color: #20bf55;
+}
+
+.title {
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+/*GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #091619;
+  color: #f4f4f8;
+  font-family: "Bitter", Georgia, serif;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+}
+
+strong {
+  color: #4985fe;
+}
+
+#logo {
+  display: none;
+}
+
+.btn {
+  background: #4985fe;
+  color: #f4f4f8;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+
+.btn:hover {
+  background-color: #20bf55;
+}
+
+.title {
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  border-bottom: 1px solid rgba(244, 244, 248, 0.2);
+  background-color: #091619;
+  z-index: 100;
+}
+
+.navigation__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.navigation__list .navigation__item {
+  padding: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.navigation__list .navigation__item .navigation__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #4985fe;
+}
+.navigation__list .navigation__item .navigation__link:hover {
+  color: #20bf55;
+}
+
+.btn-main {
+  margin: 1.5rem;
+  padding: 1rem;
+  font-size: 2.3rem;
+  text-decoration: none;
+  background-color: #4985fe;
+  color: #f4f4f8;
+  border-radius: 5%;
+}
+.btn-main:hover {
+  background-color: #20bf55;
+}
+
+/*GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #091619;
+  color: #f4f4f8;
+  font-family: "Bitter", Georgia, serif;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+}
+
+strong {
+  color: #4985fe;
+}
+
+#logo {
+  display: none;
+}
+
+.btn {
+  background: #4985fe;
+  color: #f4f4f8;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+
+.btn:hover {
+  background-color: #20bf55;
+}
+
+.title {
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+main {
+  margin-top: 4em;
+}
+main .header {
+  width: 100%;
+  height: auto;
+  padding-top: 5.5rem;
+}
+main .header .header__box {
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  width: 70%;
+  height: auto;
+  border: 1.2rem solid #20bf55;
+}
+main .header .header__box .header__margin {
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+main .header .header__box .header__title {
+  margin-top: 1rem;
+}
+main .header .header__box .header__title h1 {
+  font-size: 3.5rem;
+  margin-left: 1.2rem;
+}
+main .header .header__box .header__subtitle h2 {
+  margin-left: 1.2rem;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  color: #20bf55;
+}
+main .header .header__box .header__content {
+  font-size: 2rem;
+}
+main .header .header__box .header__content p {
+  margin-left: 1.2rem;
+}
+main .project {
+  width: 100%;
+  height: auto;
+  margin-top: 11em;
+  scroll-margin-top: 53px;
+}
+main .project .project__grid .project__work {
+  width: 100%;
+}
+main .project .project__grid .project__work .project__thumb:hover .code {
+  color: #20bf55;
+}
+main .project .project__grid .project__work .project__thumb a {
+  text-decoration: none;
+}
+main .project .project__grid .project__work .project__thumb a img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+main .project .project__grid .project__work .project__thumb a .project__description {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0.5em;
+  color: #4985fe;
+}
+main .project .btn-mostrar-mas {
+  display: block;
+  margin: 2rem auto;
+  width: 33%;
+  text-transform: uppercase;
+}
+main .project .btn-mostrar-mas i {
+  color: #f4f4f8;
+  font-size: 1.5rem;
+  margin-left: 1.2rem;
+}
+main .about-me {
+  width: 100%;
+  height: 100vh;
+  margin-top: 3em;
+  scroll-margin-top: 53px;
+}
+main .about-me .about-me__grid .about-me__box {
+  margin: 1.5em;
+}
+main .about-me .about-me__grid .about-me__box .about-me__text {
+  font-size: 1.5em;
+  text-align: justify;
+  margin: 1.3em;
+}
+main .about-me .about-me__grid .about-me__box a {
+  display: block;
+  margin: 1.5em auto;
+  width: 60%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+main .about-me .about-me__grid .about-me__picture {
+  width: 100%;
+}
+main .about-me .about-me__grid .about-me__picture img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+main .contact {
+  width: 100%;
+  height: 75vh;
+  margin: 6rem auto;
+  scroll-margin-top: 53px;
+}
+main .contact .contact__header .contact__text {
+  font-size: 1.5em;
+  text-align: justify;
+  margin: 1.3em;
+}
+main .contact .contact__header .contact__text a {
+  text-decoration: none;
+}
+main .contact .contact__header .contact__text a:hover {
+  color: #20bf55;
+}
+main .contact .contact__rrss {
+  font-size: 5em;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10rem auto;
+}
+main .contact .contact__rrss a:hover {
+  color: #20bf55;
+}
+
+/*GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #091619;
+  color: #f4f4f8;
+  font-family: "Bitter", Georgia, serif;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+}
+
+strong {
+  color: #4985fe;
+}
+
+#logo {
+  display: none;
+}
+
+.btn {
+  background: #4985fe;
+  color: #f4f4f8;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+
+.btn:hover {
+  background-color: #20bf55;
+}
+
+.title {
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+/*FOOTER*/
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  border-top: 1px solid rgba(244, 244, 248, 0.2);
+}
+footer p {
+  padding: 1.5rem;
+  font-size: 1.7rem;
+}
+footer p a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #4985fe;
+}
+footer p a:hover {
+  color: #20bf55;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  .navigation #logo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0.5em 6rem;
+  }
+  .navigation .navigation__list .navigation__item {
+    margin: 2em 0.5em;
+    font-size: 1.7em;
+  }
+  main {
+    margin-top: 11em;
+    scroll-margin-top: 117px;
+  }
+  main .header {
+    height: 80vh;
+  }
+  main .header .header__box {
+    width: 80%;
+    height: 77vh;
+  }
+  main .header .header__box .header__margin {
+    margin: 0 1em;
+  }
+  main .header .header__box .header__title h1 {
+    font-size: 4.5em;
+    margin-top: 5rem;
+    margin-left: 3.2rem;
+  }
+  main .header .header__box .header__subtitle h2 {
+    font-size: 3em;
+    margin-top: 7rem;
+    margin-left: 3.2rem;
+  }
+  main .header .header__box .header__content {
+    margin-left: 0.7em;
+  }
+  main .header .header__box .header__content p {
+    font-size: 1.3em;
+    margin-top: 8rem;
+    margin-bottom: 2.8em;
+  }
+  main .project {
+    scroll-margin-top: 135px;
+    margin-top: 20em;
+    height: 100vh;
+  }
+  main .project .project__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main .project .project__grid .project__work .project__thumb a img {
+    width: 80%;
+  }
+  main .project .project__grid .project__work .project__thumb a .project__description {
+    font-size: 2.3em;
+    margin-bottom: 8rem;
+  }
+  main .project .btn-mostrar-mas {
+    margin-top: 0rem;
+    width: 18%;
+  }
+  main .about-me {
+    scroll-margin-top: 135px;
+    margin-top: 14em;
+    height: 74vh;
+  }
+  main .about-me .about-me__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 6rem;
+  }
+  main .about-me .about-me__grid .about-me__box {
+    width: 100%;
+    margin: 0 1.5em;
+  }
+  main .about-me .about-me__grid .about-me__box .about-me__text {
+    font-size: 1.7em;
+    margin: 1.5em;
+  }
+  main .about-me .about-me__grid .about-me__box .about-me__button {
+    font-size: 1.5em;
+  }
+  main .about-me .about-me__grid .about-me__picture {
+    margin-top: 3em;
+  }
+  main .about-me .about-me__grid .about-me__picture img {
+    width: 85%;
+    height: 39vh;
+    margin: 0.5em auto;
+  }
+  main .contact {
+    scroll-margin-top: 135px;
+    margin-top: 2.3em;
+    height: 60vh;
+  }
+  main .contact .contact__header .contact__text {
+    font-size: 1.7em;
+    margin: 2.5em 7em;
+  }
+  main .contact .contact__rrss {
+    font-size: 4.5em;
+    margin-top: 3em;
+  }
+  footer p {
+    padding: 2rem;
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navigation {
+    margin-right: 5rem;
+  }
+  .navigation .navigation__list {
+    margin-left: 26rem;
+  }
+  main .header .header__box .header__title h1 {
+    font-size: 4.5rem;
+    margin-top: 5rem;
+    margin-left: 3.2rem;
+  }
+  main .header .header__box .header__subtitle h2 {
+    font-size: 3.5rem;
+  }
+  main .header .header__box .header__content p {
+    font-size: 2.5rem;
+  }
+  main .project .project__grid .project__work .project__thumb a img {
+    width: 70%;
+  }
+  main .project .btn-mostrar-mas {
+    width: 14%;
+  }
+  main .about-me {
+    margin-top: 48em;
+    height: 84vh;
+  }
+  main .about-me .about-me__grid .about-me__picture img {
+    height: 43vh;
+    margin: 0 auto;
+  }
+  main .about-me .about-me__grid .about-me__box .about-me__button {
+    width: 40%;
+  }
+  main .contact {
+    height: 65vh;
+  }
+  main .contact .contact__header .contact__text {
+    font-size: 2rem;
+    margin-bottom: 10rem;
+  }
+  main .contact .contact__rrss {
+    margin-top: 2rem;
+  }
+  footer p {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    flex: 1;
+  }
+  .navigation #logo {
+    margin-right: 24rem;
+  }
+  main .header .header__box .header__title h1 {
+    font-size: 5.5rem;
+    margin-top: 5rem;
+  }
+  main .header .header__box .header__subtitle h2 {
+    font-size: 4rem;
+    padding: 2rem;
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+  }
+  main .header .header__box .header__content p {
+    padding: 2.5rem;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-left: -0.5rem;
+  }
+  main .project .project__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  main .btn-mostrar-mas {
+    text-align: center;
+  }
+  main .about-me {
+    margin-top: 30rem;
+  }
+  footer p {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  main .header .header__box .header__title h1 {
+    font-size: 6.5rem;
+  }
+  main .header .header__box .header__subtitle h2 {
+    font-size: 4.5rem;
+    margin-top: 4.5rem;
+  }
+  main .header .header__box .header__content p {
+    font-size: 3.5rem;
+  }
+  main .project .project__grid .project__work .project__thumb a img {
+    width: 60%;
+  }
+  main .project .btn-mostrar-mas {
+    width: 10%;
+  }
+  main .about-me {
+    margin-top: 40rem;
+  }
+  main .about-me .about-me__grid .about-me__box {
+    margin: 0 10rem;
+  }
+  main .about-me .about-me__grid .about-me__box .about-me__text {
+    font-size: 2rem;
+    margin-bottom: 8rem;
+  }
+  main .about-me .about-me__grid .about-me__box .about-me__button {
+    width: 38%;
+    font-size: 2rem;
+  }
+  main .about-me .about-me__grid .about-me__picture img {
+    width: 60%;
+  }
+  main .contact .contact__header .contact__text {
+    display: block;
+    width: 50%;
+    margin: 6rem auto 12rem;
+    font-size: 2.3rem;
+  }
+  main .contact .contact__rrss {
+    width: 60%;
+  }
+  footer p {
+    font-size: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,38 @@
+@use 'global'
+
+.fixed-nav
+    position: fixed
+    top: 0
+    width: 100%
+    display: flex
+    justify-content: space-around
+    align-content: center
+    border-bottom: 1px solid rgba(244,244,248,0.2)
+    background-color: global.$background
+    z-index: 100
+
+.navigation__list
+    padding: 0
+    margin: 0
+    list-style: none
+    .navigation__item
+        padding: 1em
+        display: inline-block
+        font-size: 1.5rem
+        .navigation__link
+            text-decoration: none
+            text-transform: uppercase
+            color: global.$color_text_1
+            &:hover
+                color: global.$color_text_2 
+
+.btn-main
+    margin: 1.5rem
+    padding: 1rem
+    font-size: 2.3rem
+    text-decoration: none
+    background-color: global.$color_text_1
+    color: global.$color_text_3
+    border-radius: 5%
+    &:hover
+        background-color: global.$color_text_2  

@@ -1,0 +1,240 @@
+@media screen and (min-width: 768px)
+    .navigation
+        display: flex
+        align-items: center
+        #logo
+            display: inline-block
+            width: 100px
+            height: 100px
+            margin: 0.5em 6rem
+        .navigation__list
+            .navigation__item
+                margin: 2em 0.5em
+                font-size: 1.7em
+
+    main
+        margin-top: 11em
+        scroll-margin-top: 117px
+        .header
+            height: 80vh
+            .header__box
+                width: 80%
+                height: 77vh
+                .header__margin
+                    margin: 0 1em
+                .header__title
+                    h1 
+                        font-size: 4.5em
+                        margin-top: 5rem
+                        margin-left: 3.2rem
+                .header__subtitle
+                    h2 
+                        font-size: 3em
+                        margin-top: 7rem
+                        margin-left: 3.2rem
+                .header__content
+                    margin-left: 0.7em
+                    p 
+                        font-size: 1.3em
+                        margin-top: 8rem
+                        margin-bottom: 2.8em
+
+        .project
+            scroll-margin-top: 135px
+            margin-top: 20em
+            height: 100vh
+            .project__grid
+                display: grid
+                grid-template-columns: repeat(2, 1fr)
+                .project__work
+                    .project__thumb
+                        a
+                            img 
+                                width: 80%
+                            .project__description
+                                font-size: 2.3em
+                                margin-bottom: 8rem
+            .btn-mostrar-mas
+                margin-top: 0rem
+                width: 18%
+        .about-me
+            scroll-margin-top: 135px
+            margin-top: 14em
+            height: 74vh
+            .about-me__grid
+                display: grid
+                grid-template-columns: repeat(2, 1fr)
+                margin-top: 6rem
+                .about-me__box
+                    width: 100%
+                    margin: 0 1.5em
+                    .about-me__text
+                        font-size: 1.7em
+                        margin: 1.5em
+                    .about-me__button
+                        font-size: 1.5em
+                .about-me__picture
+                    margin-top: 3em
+                    img 
+                        width: 85%
+                        height: 39vh
+                        margin: 0.5em auto
+        .contact
+            scroll-margin-top: 135px
+            margin-top: 2.3em
+            height: 60vh
+            .contact__header
+                .contact__text
+                    font-size: 1.7em
+                    margin: 2.5em 7em
+            .contact__rrss
+                font-size: 4.5em
+                margin-top: 3em
+
+    footer
+        p
+            padding: 2rem
+            font-size: 2.5rem
+
+@media screen and (min-width: 1024px)
+    .navigation
+        margin-right: 5rem
+        .navigation__list
+            margin-left: 26rem
+    main
+        .header
+            .header__box
+                .header__title
+                    h1
+                        font-size: 4.5rem
+                        margin-top: 5rem
+                        margin-left: 3.2rem
+                .header__subtitle
+                    h2
+                        font-size: 3.5rem
+                .header__content
+                    p
+                        font-size: 2.5rem
+
+        .project
+            .project__grid
+                .project__work
+                    .project__thumb
+                        a
+                            img
+                                width: 70%
+            .btn-mostrar-mas
+                width: 14%   
+        .about-me
+            margin-top: 48em
+            height: 84vh
+            .about-me__grid
+                .about-me__picture
+                    img 
+                        height: 43vh
+                        margin: 0 auto
+                .about-me__box
+                    .about-me__button
+                        width: 40%
+        .contact
+            height: 65vh
+            .contact__header
+                .contact__text
+                    font-size: 2rem
+                    margin-bottom: 10rem
+            .contact__rrss
+                margin-top: 2rem
+
+    footer p
+        font-size: 2.3rem
+
+@media screen and (min-width: 1200px)
+    .navigation
+        display: flex
+        justify-content: space-around
+        align-content: space-around
+        align-items: center
+        flex: 1
+        #logo
+            margin-right: 24rem
+
+    main
+        .header
+            .header__box
+                .header__title
+                    h1
+                        font-size: 5.5rem
+                        margin-top: 5rem
+                .header__subtitle
+                    h2
+                        font-size: 4rem
+                        padding: 2rem
+                        margin-top: 2.5rem
+                        margin-left: 1.5rem
+                .header__content
+                    p
+                        padding: 2.5rem
+                        font-size: 2.5rem
+                        margin-top: 3rem
+                        margin-left: -0.5rem
+        .project 
+            .project__grid
+                grid-template-columns: repeat(3, 1fr)
+        .btn-mostrar-mas
+            text-align: center
+        .about-me
+            margin-top: 30rem
+
+    footer p
+        font-size: 2rem
+
+@media screen and (min-width: 1400px)
+    main
+        .header
+            .header__box
+                .header__title
+                    h1
+                        font-size: 6.5rem
+                .header__subtitle
+                    h2
+                        font-size: 4.5rem
+                        margin-top: 4.5rem
+                .header__content
+                    p
+                        font-size: 3.5rem
+        .project 
+            .project__grid 
+                .project__work 
+                    .project__thumb 
+                        a 
+                            img 
+                                width: 60%
+            .btn-mostrar-mas
+                width: 10%
+        .about-me
+            margin-top: 40rem
+            .about-me__grid
+                .about-me__box
+                    margin: 0 10rem
+                    .about-me__text
+                        font-size: 2rem
+                        margin-bottom: 8rem
+                    .about-me__button
+                        width: 38%
+                        font-size: 2rem
+                .about-me__picture
+                    img
+                        width: 60%
+        .contact
+            .contact__header
+                .contact__text
+                        display: block
+                        width: 50%
+                        margin: 6rem auto 12rem
+                        font-size: 2.3rem
+            .contact__rrss
+                width: 60%
+
+    footer
+        p
+            font-size: 2.5rem
