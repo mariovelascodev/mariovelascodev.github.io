@@ -541,7 +541,7 @@ footer p a:hover {
     margin-right: 24rem;
   }
   main .header .header__box {
-    height: auto;
+    height: 100vh;
   }
   main .header .header__box .header__title h1 {
     font-size: 4.5rem;
@@ -572,8 +572,8 @@ footer p a:hover {
     margin: 7.5rem;
   }
   main .about-me .about-me__grid .about-me__picture img {
-    width: 64%;
-    height: 38vh;
+    width: 70%;
+    height: 45vh;
   }
   main .contact .contact__header .contact__text {
     margin-left: 30rem;
@@ -587,8 +587,11 @@ footer p a:hover {
   }
 }
 @media screen and (min-width: 1400px) {
+  main .header .header__box {
+    height: 70vh;
+  }
   main .header .header__box .header__title h1 {
-    font-size: 6.5rem;
+    font-size: 5.5rem;
   }
   main .header .header__box .header__subtitle h2 {
     font-size: 4.5rem;
@@ -618,7 +621,8 @@ footer p a:hover {
     font-size: 2rem;
   }
   main .about-me .about-me__grid .about-me__picture img {
-    width: 60%;
+    width: 46%;
+    height: 34vh;
   }
   main .contact .contact__header .contact__text {
     display: block;
@@ -627,6 +631,7 @@ footer p a:hover {
     font-size: 2.3rem;
   }
   main .contact .contact__rrss {
+    margin-top: 24rem;
     width: 60%;
   }
   footer p {
