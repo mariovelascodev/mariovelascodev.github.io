@@ -540,6 +540,9 @@ footer p a:hover {
   .navigation #logo {
     margin-right: 24rem;
   }
+  main .header .header__box {
+    height: auto;
+  }
   main .header .header__box .header__title h1 {
     font-size: 4.5rem;
     margin-top: 5rem;
@@ -563,18 +566,21 @@ footer p a:hover {
     text-align: center;
   }
   main .about-me {
-    margin-top: 40rem;
+    margin-top: 50rem;
   }
   main .about-me .about-me__grid {
     margin: 7.5rem;
   }
   main .about-me .about-me__grid .about-me__picture img {
-    width: 53%;
-    height: 34vh;
+    width: 64%;
+    height: 38vh;
   }
   main .contact .contact__header .contact__text {
     margin-left: 30rem;
     margin-right: 30rem;
+  }
+  footer {
+    margin-top: 30rem;
   }
   footer p {
     font-size: 2rem;
