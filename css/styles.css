@@ -42,60 +42,6 @@ strong {
   border-radius: 3px;
   padding: 0.5em;
 }
-.btn:hover {
-  background-color: #20bf55;
-}
-
-.title {
-  font-size: 3.5em;
-  text-align: center;
-  margin-bottom: 0.5em;
-}
-
-/*GLOBAL*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  background: #091619;
-  color: #f4f4f8;
-  font-family: "Bitter", Georgia, serif;
-  line-height: 1.7;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.4;
-}
-
-strong {
-  color: #4985fe;
-}
-
-#logo {
-  display: none;
-}
-
-.btn {
-  background: #4985fe;
-  color: #f4f4f8;
-  text-decoration: none;
-  font-size: 1.3em;
-  border-radius: 3px;
-  padding: 0.5em;
-}
 
 .btn:hover {
   background-color: #20bf55;
@@ -595,11 +541,11 @@ footer p a:hover {
     margin-right: 24rem;
   }
   main .header .header__box .header__title h1 {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     margin-top: 5rem;
   }
   main .header .header__box .header__subtitle h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding: 2rem;
     margin-top: 2.5rem;
     margin-left: 1.5rem;
@@ -617,7 +563,18 @@ footer p a:hover {
     text-align: center;
   }
   main .about-me {
-    margin-top: 30rem;
+    margin-top: 40rem;
+  }
+  main .about-me .about-me__grid {
+    margin: 7.5rem;
+  }
+  main .about-me .about-me__grid .about-me__picture img {
+    width: 53%;
+    height: 34vh;
+  }
+  main .contact .contact__header .contact__text {
+    margin-left: 30rem;
+    margin-right: 30rem;
   }
   footer p {
     font-size: 2rem;
